@@ -8,7 +8,7 @@ copyFileSync("src/style.css", "dist/style.css");
 
 const html = `<!doctype html>
 <html><head><meta charset="utf-8"><title>${content.title}</title>
-<link rel="stylesheet" href="style.css"></head>
+<link rel="stylesheet" href="/style.css"></head>
 <body>
 <span class="badge">${label}</span>
 <h1>${content.headline}</h1>
